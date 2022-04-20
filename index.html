@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCAS65 Calc</title>
+</head>
+<body>
+    <div>
+        <!--input score--->
+        <div id="scoreinput">
+            <h4>Set 0 if didn't used</h4>
+            <h4>Please fill every blank</h4>
+            <div>g<input type="text" id="gat"> percent <input type="text" id="gatperc">%</div>
+            <div>p1<input type="text" id="pat1">percent <input type="text" id="pat1perc">%</div>
+            <div>p2<input type="text" id="pat2">percent <input type="text" id="pat2perc">%</div>
+            <div>p3<input type="text" id="pat3">percent <input type="text" id="pat3perc">%</div>
+            <div>p4<input type="text" id="pat4">percent <input type="text" id="pat4perc">%</div>
+            <div>p5<input type="text" id="pat5">percent <input type="text" id="pat5perc">%</div>
+            <div>p6<input type="text" id="pat6">percent <input type="text" id="pat6perc">%</div>
+            <div>p7.1<input type="text" id="pat7.1">percent <input type="text" id="pat7.1perc">%</div>
+            <div>p7.2<input type="text" id="pat7.2">percent <input type="text" id="pat7.2perc">%</div>
+            <div>p7.3<input type="text" id="pat7.3">percent <input type="text" id="pat7.3perc">%</div>
+            <div>p7.4<input type="text" id="pat7.4">percent <input type="text" id="pat7.4perc">%</div>
+            <div>p7.5<input type="text" id="pat7.5">percent <input type="text" id="pat7.5perc">%</div>
+            <div>p7.6<input type="text" id="pat7.6">percent <input type="text" id="pat7.6perc">%</div>
+            <div>p7.7<input type="text" id="pat7.7">percent <input type="text" id="pat7.7perc">%</div>
+            <!--In development-->
+        <!-- <div>smThai<input type="text" id="smthai">percent <input type="text" id="smthaiperc">%</div>
+            <div>smSocial<input type="text" id="smsc">percent <input type="text" id="smscperc">%</div>
+            <div>smEng<input type="text" id="smeng"> percent <input type="text" id="smengperc">%</div>
+            <div>smMath1<input type="text" id="smmath1"> percent <input type="text" id="smmath1perc">%</div> -->
+        </div>
+        <button type="button" onclick="scorecalc()">Enter</button>
+        <!--result-->
+        <dir>
+            <h5>max100</h5>
+            <p id="result1"></p>
+            <h5>max30,000</h5>
+            <p id="result2"></p>
+        </dir>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
